@@ -4,5 +4,9 @@ function mainDraw() {
   AMBIENTE.atualizar();
   AMBIENTE.desenhar();
 
-  // PAINEL.desenhar();
+  PAINEL.desenhar();
+
+  for (let i = 0; i < ALIMENTOS_INICIAIS; i++) {
+    AMBIENTE.adicionarAlimento();
+  }
 }

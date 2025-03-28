@@ -13,7 +13,7 @@ function criar() {
   }
 
   // Criar alimentos iniciais
-  for (let i = 0; i < ALIMENTOS_INICIAIS; i++) {
-    AMBIENTE.adicionarAlimento();
-  }
+  // for (let i = 0; i < ALIMENTOS_INICIAIS; i++) {
+  //   AMBIENTE.adicionarAlimento();
+  // }
 }

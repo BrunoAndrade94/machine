@@ -1,0 +1,3 @@
+class GenomaPredador {
+  constructor() {}
+}

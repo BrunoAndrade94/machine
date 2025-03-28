@@ -1,7 +1,7 @@
 class Alimento {
   constructor() {
     this.posicao = createVector(random(LARGURA), random(ALTURA));
-    this.velocidade = p5.Vector.random2D().setMag(random(0.1, 3));
+    this.velocidade = p5.Vector.random2D().setMag(random(0.1, 1.6));
     this.valor = ALIMENTO_VALOR;
     this.tamanho = ALIMENTO_TAMANHO;
   }
